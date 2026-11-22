@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5b3a"/>
+      <stop offset="0.35" stop-color="#4a3320"/>
+      <stop offset="0.75" stop-color="#2c1d10"/>
+      <stop offset="1" stop-color="#1a1109"/>
+    </linearGradient>
+    <radialGradient id="ring" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8a6a45"/>
+      <stop offset="0.55" stop-color="#5a3f26"/>
+      <stop offset="1" stop-color="#241708"/>
+    </radialGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bg)"/>
+
+  <g filter="url(#sh)" transform="rotate(-18 300 240)">
+    <g transform="translate(0,-48)">
+      <rect x="140" y="206" width="320" height="68" rx="30" fill="url(#wood)"/>
+      <ellipse cx="460" cy="240" rx="22" ry="34" fill="url(#ring)"/>
+      <ellipse cx="460" cy="240" rx="14" ry="22" fill="none" stroke="#2b1b0d" stroke-width="2.5" opacity="0.7"/>
+      <ellipse cx="460" cy="240" rx="7" ry="11" fill="none" stroke="#2b1b0d" stroke-width="2" opacity="0.6"/>
+    </g>
+    <g transform="translate(10,18)">
+      <rect x="140" y="206" width="320" height="68" rx="30" fill="url(#wood)"/>
+      <ellipse cx="460" cy="240" rx="22" ry="34" fill="url(#ring)"/>
+      <ellipse cx="460" cy="240" rx="14" ry="22" fill="none" stroke="#2b1b0d" stroke-width="2.5" opacity="0.7"/>
+      <ellipse cx="460" cy="240" rx="7" ry="11" fill="none" stroke="#2b1b0d" stroke-width="2" opacity="0.6"/>
+    </g>
+    <g transform="translate(-6,84)">
+      <rect x="140" y="206" width="320" height="68" rx="30" fill="url(#wood)"/>
+      <ellipse cx="460" cy="240" rx="22" ry="34" fill="url(#ring)"/>
+      <ellipse cx="460" cy="240" rx="14" ry="22" fill="none" stroke="#2b1b0d" stroke-width="2.5" opacity="0.7"/>
+      <ellipse cx="460" cy="240" rx="7" ry="11" fill="none" stroke="#2b1b0d" stroke-width="2" opacity="0.6"/>
+    </g>
+  </g>
+
+  <ellipse cx="300" cy="392" rx="160" ry="16" fill="#000" opacity="0.07"/>
+</svg>

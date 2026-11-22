@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </radialGradient>
+    <linearGradient id="l1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#555"/>
+      <stop offset="0.6" stop-color="#222"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <linearGradient id="l2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#454545"/>
+      <stop offset="1" stop-color="#111"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bg)"/>
+
+  <g filter="url(#sh)">
+    <polygon points="300,120 400,168 372,258 262,272 216,196" fill="url(#l1)"/>
+    <polygon points="400,168 440,232 372,258" fill="#2e2e2e"/>
+    <polygon points="216,196 262,272 206,300 168,246" fill="url(#l2)"/>
+    <polygon points="262,272 372,258 356,332 244,338" fill="url(#l2)"/>
+    <polygon points="168,246 206,300 150,318 122,272" fill="url(#l1)"/>
+    <polygon points="356,332 372,258 430,286 408,340" fill="#191919"/>
+    <polygon points="244,338 356,332 330,374 214,368" fill="#0f0f0f"/>
+    <polygon points="440,232 470,268 430,286 400,250" fill="#242424"/>
+  </g>
+
+  <ellipse cx="300" cy="386" rx="150" ry="16" fill="#000" opacity="0.07"/>
+</svg>
